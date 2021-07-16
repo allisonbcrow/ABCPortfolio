@@ -1,0 +1,433 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Sacramento', cursive; */
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+/* Nav Bar */
+
+.navbar-light {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.navbar-brand {
+    margin-left: -5em;
+    padding: .5px;
+    
+}
+
+.nav-link {
+    text-align: right;
+    font-family: 'Merriweather';
+    font-size: 1em;
+    color:black;
+    margin-right: 8px;
+}
+
+
+
+/* Header */
+
+.header {
+    border: 50px double white;
+    border-radius: 90px 0px;
+    border-right: hidden;
+    border-left: hidden;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#allisonCrow {
+font-family: 'Sacramento';
+font-size: 15em;
+text-align: center;
+text-shadow: 1px 2px 4px #ff0095, 2px 4px 6px #c41330;
+}
+
+#description {
+font-family: 'Merriweather';
+font-size: 3em;
+text-align: right;
+padding-right: 3.5em;
+margin-top: -1.5em;
+margin-bottom: 1em;
+text-shadow: .5px 1px 2px #ff0095, 1px 2px 3px #c41330;
+}
+
+.headerBackground {
+    background-image: url('https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    padding-top: 10em;
+    padding-bottom: 3em;
+}
+
+
+/* About Me */
+
+#self-portrait {
+    border: 10px dotted rgba(255, 255, 255, 0.795);
+    padding: 1px;
+    height: 32em;
+    margin-top: 2em;
+}
+
+#textAbout {
+    font-family: 'Merriweather';
+    font-size: 1em;
+    padding-left: 2em;
+    color: rgb(255, 218, 252);
+    text-shadow: .5px 1px 2px #030203;
+    width: 30em;
+    text-align: left;
+}
+
+#quote {
+    text-align: center;
+    font-style: italic;
+    font-family: 'sacramento';
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 2px #000000;
+}
+.aboutMe h2 {
+    color: rgb(119, 2, 109);
+    text-shadow: .5px 1px 2px #ff9ef7, 1px 2px 3px #dd0bc1;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Sacramento';
+    border: 10px double white;
+    border-radius: 50px 20px;
+    border-right: hidden;
+    border-left: hidden;
+    padding-top: 15px;
+}
+
+.container-fluid  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-bottom: 5em;;
+}
+
+ .aboutMeBackground {
+    background-image: url('https://images.unsplash.com/photo-1561835503-648c2f1169d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 1em solid rgb(119, 2, 109);
+}
+
+/* Projects */
+
+
+.projects h2{
+    color: black;
+    text-shadow: .5px 1px 2px #ff0095, 1px 2px 3px #c41330;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Sacramento';
+    border: 10px double white;
+    border-radius: 50px 20px;
+    border-right: hidden;
+    border-left: hidden;
+    padding-top: 15px;
+}
+
+
+.project-category p{
+    color:black;
+    font-family: 'Merriweather';
+    text-shadow: .5px 1px 2px rgb(199, 194, 194);
+    text-align: center;
+    /* margin-left: 3em; */
+}
+
+
+.img-fluid {
+    border: 1em  ridge white;
+  margin-bottom: 1em;
+    margin-top: 2em;
+    
+}
+
+
+  .portfolio-box:link {
+    text-decoration: none;
+  }
+
+  .projectBackground {
+    background-image: url('https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 1em dashed black;
+}
+
+/* Resume */
+
+#resumeBackground {
+    background-image: url('https://images.unsplash.com/photo-1561835503-648c2f1169d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 1em solid rgb(119, 2, 109);
+}
+
+
+.resume {
+    padding-top: 2em;
+    padding-bottom: 6em;
+}
+
+a.btn.btn-outline-dark.btn-lg.text-uppercase {
+    justify-content: center;
+    margin-top: -5em;
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather';
+    border: 2px solid white;
+}
+
+a.btn.btn-outline-dark.btn-lg.text-uppercase:hover{
+    background-color: rgb(224, 176, 220);
+    color: black;
+}
+
+
+.list-inline li i {
+    color:rgba(255, 255, 255, 0.849);
+    font-size: 6em;
+    text-shadow: 4px 4px rgb(119, 2, 109);
+}
+
+hr.my-4 {
+    color: rgb(255, 255, 255);
+    opacity: 50%;
+    padding: 2px;
+}
+
+.skills-text {
+    color:#dd0bc1;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    padding: 1em;
+    text-shadow: 4px 2px rgb(0, 0, 0);
+}
+
+h1.display-4.text-center {
+    color: rgb(119, 2, 109);
+    text-shadow: .5px 1px 2px #ff9ef7, 1px 2px 3px #dd0bc1;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Sacramento';
+    border: 10px double white;
+    border-radius: 50px 20px;
+    border-right: hidden;
+    border-left: hidden;
+    padding-top: 15px;
+    margin-bottom: 1em;
+    margin-top: -30px;
+}
+
+  /* Artwork */
+
+ 
+
+.artwork h1 {
+    color: black;
+    text-shadow: .5px 1px 2px #ff0095, 1px 2px 3px #c41330;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Sacramento';
+    border: 10px double white;
+    border-radius: 50px 20px;
+    border-right: hidden;
+    border-left: hidden;
+    padding-top: 15px;
+}
+
+.artwork p {
+    color:black;
+    font-family: 'Merriweather';
+    font-size: 1em;
+    padding: 1em;
+    text-shadow: .25px .5px 1px deeppink;
+    text-align: right;
+}
+
+.artwork p a{
+    color:black;
+    font-family: 'Merriweather';
+    font-size: 1em;
+    padding: 1em;
+    text-shadow: .25px .5px 1px deeppink;
+}
+
+.artwork p a:hover {
+    color: white;
+}
+
+.artwork p a:link {
+    text-decoration: none;
+}
+
+.columnart img {
+    height: 10em;
+    width: 10em;
+    border: 8px ridge white;
+    margin: 3px;
+}
+
+
+.columnart  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.artworkBackground {
+    background-image: url('https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 1em dashed black;
+}
+
+
+/* Photography */
+.photography h1 {
+    color: black;
+    text-shadow: .5px 1px 2px #ff0095, 1px 2px 3px #c41330;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Sacramento';
+    border: 10px double white;
+    border-radius: 50px 20px;
+    border-right: hidden;
+    border-left: hidden;
+    padding-top: 15px;
+}
+
+.photography p {
+    color:black;
+    font-family: 'Merriweather';
+    font-size: 1em;
+    padding: 1em;
+    text-shadow: .25px .5px 1px deeppink;
+    text-align: right;
+}
+
+.photography p a{
+    color:black;
+    font-family: 'Merriweather';
+    font-size: 1em;
+    padding: 1em;
+    text-shadow: .25px .5px 1px deeppink;
+}
+
+.photography p a:hover {
+    color: white;
+}
+
+.photography p a:link {
+    text-decoration: none;
+}
+
+.columnphoto  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.columnphoto img {
+    height: 10em;
+    width: 10em;
+    border: 8px ridge white;
+    margin: 3px;
+    
+}
+
+
+.photographyBackground {
+    background-image: url('https://images.unsplash.com/photo-1503455637927-730bce8583c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 1em dashed black;
+}
+
+/* Contact Me */
+
+.contactMeBackground {
+    background-image: url('https://images.unsplash.com/photo-1561835503-648c2f1169d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-top: 1em solid rgb(119, 2, 109);
+}
+
+h2.text-center {
+    color: rgb(119, 2, 109);
+    text-shadow: .5px 1px 2px #ff9ef7, 1px 2px 3px #dd0bc1;
+
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Sacramento';
+    border: 10px double white;
+    border-radius: 50px 20px;
+    border-right: hidden;
+    border-left: hidden;
+    padding-top: 15px;
+}
+
+form {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.form-control {
+    margin: 1em;
+}
+
+button.btn {
+    margin-left: 1em;
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather';
+    border: 2px solid white;
+}
+
+button.btn:hover {
+    background-color: rgb(224, 176, 220);
+    color: black;
+}
+
+
+/* Card Footer */
+
+
+.footer {
+    border-top: 1em double black;
+    border-bottom: 1em double black;
+justify-content: center;
+}
+
+.container2.text-center {
+    margin-top: 2em;
+}
+
+.list-inline2 li i {
+    color:black;
+    font-size: 3em;
+    text-shadow: 2px 1px deeppink;
+}
+
+.list-inline2 li i:hover {
+    color:deeppink;
+    font-size: 3em;
+    text-shadow: 2px 1px black;
+}
